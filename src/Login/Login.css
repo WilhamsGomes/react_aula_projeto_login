@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+body{
+    background-image: linear-gradient( to right, #638FFF, #6a7ba7);
+    font-family: 'roboto';
+}
+
+.conteiner{
+    margin: 0 auto;
+    margin-top: 80px;
+    display: flex;
+    height: 500px;
+    width: 900px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 60px;
+    overflow: hidden;
+}
+
+.conteiner img{
+   margin-top: 50px; 
+   height: 80%;
+   width: 80%;
+}
+
+.forms{
+    margin-top: 50px;
+    margin-right: 70px;
+}
+
+.title_login{
+    color: #638FFF;
+    font-weight:bold;
+    font-size: 2em;
+}
+
+.email{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 35px;
+    width: 250px;
+    border:none;
+    border-radius: 20px;
+    background-color: rgb(231, 231, 231);
+    font-size: 15px;
+}
+
+.senha{
+    height: 35px;
+    width: 250px;
+    border:none;
+    border-radius: 20px;
+    background-color: rgb(231, 231, 231);
+    font-size: 15px;
+}
+
+.button{
+    cursor: pointer;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    height: 35px;
+    width: 250px;
+    border-radius: 10px;
+    border: none;
+    background-color: #638FFF;
+    color: white;
+}
+
+.esqueceuSenha{
+    cursor: pointer;
+    font-size: 12px;
+}
